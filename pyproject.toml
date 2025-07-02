@@ -3,11 +3,15 @@ name = "u2net-removal-toolkit"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.11,<3.14"
 dependencies = [
     "fastapi>=0.115.14",
+    "llvmlite>=0.41.0",
+    "numba>=0.58.0",
+    "onnxruntime>=1.22.0",
     "pillow>=11.2.1",
     "python-multipart>=0.0.20",
+    "rembg[core]>=2.0.66",
     "requests>=2.32.4",
     "torch>=2.7.1",
     "torchvision>=0.22.1",
