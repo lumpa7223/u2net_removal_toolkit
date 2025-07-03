@@ -50,7 +50,7 @@ async def remove_bg(file: UploadFile = File(...)):
         input_path = prepare_input_image(file)
 
         # 輸出設定
-        output_format = "png"  # or "png"
+        output_format = "WEBP"  # or "PNG"
         if output_format not in ALLOWED_FORMATS:
             raise ValueError("Unsupported output format.")
 

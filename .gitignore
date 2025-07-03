@@ -14,3 +14,4 @@ model/u2net.pth
 
 output/*
 !output/.keep
+mask.png
